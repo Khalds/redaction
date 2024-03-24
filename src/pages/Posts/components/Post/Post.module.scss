@@ -1,0 +1,13 @@
+.link {
+  text-decoration: none;
+
+  .post {
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    &:hover {
+      h4 {
+        text-decoration: underline;
+      }
+    }
+  }
+}
